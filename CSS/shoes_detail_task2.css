@@ -1,0 +1,43 @@
+@import "general.css";
+
+
+/*main*/
+.shoes-detail-box {
+    width: 746px;
+}
+.shoes-information-box {
+    width: 526px;
+}
+.shoes-picture-box {
+    width: 369px;
+}
+.shoes-picture-box img{
+    width: 100%;
+}
+.shoes-color {
+    width: 64px;
+}
+.shoes-color img {
+    width: 100%;
+}
+.size-btn {
+    width: 160px;
+}
+.size-btn.active, .size-btn:hover {
+    border: 1px solid var(--Neutral-900);
+}
+.shop-btn {
+    width: 50%;
+}
+.shoes-information {
+    border-bottom: 1px solid var(--Neutral-300);
+}
+
+
+/*recommend-box*/
+.recommend-card {
+    width: calc((1296px - (249x *3)) / 4);
+}
+.recommend-card img {
+    width: 100%;
+}

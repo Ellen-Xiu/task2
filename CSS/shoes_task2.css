@@ -1,0 +1,28 @@
+@import "general.css";
+
+
+/*main*/
+.menu-list {
+    width: 196px;
+}
+.product-box {
+    width: 1076px;
+}
+.shoes-card {
+    width: calc((1076px - 24px - 24px) / 3);
+}
+.shoes-card img {
+    width: 100%;
+}
+
+
+/*pagination*/
+.page-item button {
+    padding: 8px 15px;
+    border-radius: 0px;
+    font-weight: 400;
+}
+.page-item .active {
+    background-color: var(--Primary-300);
+    font-weight: 500;
+}
